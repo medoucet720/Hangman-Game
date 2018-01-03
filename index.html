@@ -1,40 +1,44 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang='en-us'>
 <head>
-	<meta charset="UTF-8">
+	<meta charset='UTF-8'>
 	<title>Hangman-Game</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">	
+	<link rel='stylesheet' type='text/css' href='assets/css/reset.css'>
+	<link rel='stylesheet' type='text/css' href='assets/css/style.css'>	
+
 </head>
 
 <body>
 	<header>
 		<h1>Hangman</h1>
 		<h1>Ice Cream Flavors!</h1>
+
 	</header>
-	<section class="main-container">
-		<section class="left-container">
-			<img src ="assets/images/ice-cream-background.jpg" class="gamestartimage">
+	<section class='main-container'>
+		<section class='left-container'>
+			<img src ='assets/images/ice-cream-background.jpg' class='gamestartimage'>
 		</section>
 
-		<section class="gamecenter">
+		<section class='gamecenter'>
 
-			<h2>PRESS ANY KEY TO GET STARTED!</h2>
+			<h2 id='startgame'>PRESS ANY KEY TO GET STARTED!</h2>
 			<br>
 			<br>
 
 			<h3>WINS</h3>
-
+			<p id='wins'> </p>
 			<br>
-
 			<h3>CURRENT WORD</h3>
-			<br>
+			<p id='current-Word'> </p>
 			<br>
 			<h3># GUESSES REMAINING</h3>
+			<p id='guesses-Left'> </p>
 			<br>
 			<h3>LETTERS ALREADY GUESSED</h3>
+			<p id='wrong-Guesses'> </p>
 			<br>
 		</section>
 	</section>
+	<script type='text/javascript' src='assets/javascript/game.js'></script>
 </body>
 </html>

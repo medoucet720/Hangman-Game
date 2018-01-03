@@ -2,6 +2,7 @@ body{
 	font-family: Georgia, Times, "Times New Roman", serif;
 	font-size: 18px;
 	line-height:34px;
+	text-align: center;
 	color:#cd3780;
 	background: url("../images/memphis-colorful.png") ;
 }
@@ -35,6 +36,7 @@ h3{
 	width:675px;
 	height:500px;
 	margin-left:275px;
+	background-color: white;
 
 }
 
@@ -62,3 +64,5 @@ h3{
 	padding:5px;
 
 }
+
+
